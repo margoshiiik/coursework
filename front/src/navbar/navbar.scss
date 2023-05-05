@@ -1,0 +1,33 @@
+@import '../styles.scss';
+
+.navbar{
+    @include themify($themes) {
+    display: flex;
+    align-items: center;
+    padding: 10px 25px;
+
+    border-bottom: 1px solid lightgray;
+    position: sticky;
+    top: 0; 
+
+    background-color: themed('bg');
+    color: themed('textColor'); 
+
+    .link {
+        color: themed('textColor'); 
+    }
+
+    .left{ 
+        display: flex;
+        align-items: center;
+        gap: 30px
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        gap: 30px
+    }
+}
+
+}

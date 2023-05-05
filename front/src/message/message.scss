@@ -1,0 +1,32 @@
+.message { 
+    width: 90%;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 4%;
+    margin-bottom: 15px;
+
+    .date {
+        left: 0px; 
+        bottom: 0px;
+        color: gray;
+        font-size: 15px;
+    }
+
+    .pic{
+        width: 25px;
+        height: 25px;
+    }
+
+    .messageDeleteButton{
+        border: 0px; 
+        background-color: rgb(240, 251, 255);
+        margin-top: 30px;
+        font-size: 16px;
+        text-decoration: underline;
+        color: gray;
+        margin-left: 5px;
+    }
+}
+
